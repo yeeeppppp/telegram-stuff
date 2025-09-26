@@ -26,8 +26,8 @@ logger = logging.getLogger(__name__)
 TOKEN = "token"
 DB_FILE = "DB.json"
 SUDO_USER = os.getenv('SUDO_USER', 'admin')
-PAYPAL_CLIENT_ID = "AZdNcDSqSdB0c3fA6aVk6x9JqYl-6YRC2nkXDJO6l0u0-1VT95ZaWzxKPzyRhqCGObkN3Jbvap94FCQr"
-PAYPAL_SECRET = "ELsSYnrnYfHZsTrrwWKmA7TMsI1IVHFFRA2LVh82ZK3kFBnAHuNFN5S7Wtq-pBjQY5bIEI-bTWj7_Dbs"
+PAYPAL_CLIENT_ID = "client_id"
+PAYPAL_SECRET = "secret_key"
 PAYPAL_MODE = "sandbox"  # "sandbox" для тестов, "live" для продакшена
 
 class PayPalClient:
